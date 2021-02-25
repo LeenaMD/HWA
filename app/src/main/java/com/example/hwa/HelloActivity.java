@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
-
+////
 public class HelloActivity extends AppCompatActivity {
 
     @Override
@@ -15,6 +15,6 @@ public class HelloActivity extends AppCompatActivity {
         TextView v =(TextView) findViewById(R.id.textView);
 
         Intent i = getIntent();
-        v.setText("Hello " +i.getStringExtra("personName"));
+        v.setText(" Hello   " +i.getStringExtra("personName"));
     }
 }
